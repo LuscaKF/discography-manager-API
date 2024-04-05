@@ -1,5 +1,5 @@
 # Gerenciador de discografia
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/LuscaKF/discography-manager-API/blob/main/LICENSE)
 
 # Sobre o projeto
 
@@ -7,6 +7,15 @@ A API é um serviço web desenvolvido para fornecer funcionalidades relacionadas
 
 ## Exemplo do Index de faixas
 ![image](https://github.com/LuscaKF/discography-manager-API/assets/62342102/a142787a-387f-4d09-a290-684b95a93e96)
+
+# Execute as migrações
+## É necessário trocar os dados do arquivo .env na raiz do projeto pelos dados do seu banco de dados
+## Após ter feito isso execute as migrações com: ```bash php artisan migrate ```
+
+# Como criar um album ou faixa?
+## Vá até a rota desejada, exempo: http://127.0.0.1:8000/api/albums
+
+![image](https://github.com/LuscaKF/discography-manager-API/assets/62342102/d7edce77-f9d4-4626-b84e-dca4c007fbcb)
 
 # Tecnologias utilizadas
 ## Back end
